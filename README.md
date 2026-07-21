@@ -1,15 +1,14 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E34C26,10:DA5B0B,30:C6538C,75:3572A5,100:A371F7&height=100&section=header&text=&fontSize=0" width="100%" />
 
 <p align="center">
-  <!-- 로고 이미지가 있다면 루트에 logo.jpg를 넣어주세요 -->
-  <img src="./logo.jpg" height="200px" />
+  <img src="https://github.com/jinw00ch01.png" width="160" alt="jinw00ch01" />
 </p>
 
-<h1 align="center">👩‍💻 jinw00ch01 | AI & Education Specialist 🧩</h1>
-<h3 align="center"><i>"기술과 교육을 연결하고, 실천으로 혁신을 만드는 교육 설계자, 교수자"</i></h3>
+<h1 align="center">🤖 jinw00ch01 | Physical AI Engineer 🦾</h1>
+<h3 align="center"><i>"로봇에 지능을 입히는 Physical AI 공학자 · Robotics × AI"</i></h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&center=true&vCenter=true&width=700&lines=AI+%F0%9F%A4%96+%C2%B7+Education+%F0%9F%93%9A+%C2%B7+Automation+%F0%9F%9A%80;Instructor%2C+Developer%2C+Curriculum+Designer;Whisper+%2B+GPT+%2F+RAG+%2F+PyTorch+Projects" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&center=true&vCenter=true&width=700&lines=Physical+AI+Engineer;Robotics+%28ROS+2%29+%C3%97+AI;Embodied+AI+%C2%B7+Cobot+Control+%C2%B7+LLM+Apps;Doosan+ROKEY+Bootcamp+7th" />
 </p>
 
 <p align="center">
@@ -22,86 +21,101 @@
 
 ## 💖 About Me
 
-- 여기에 자기소개, 현재 역할, 관심 분야를 적어주세요.
-- 주요 수상, 자격, 경험을 bullet로 정리하세요.
+- 🤖 로봇과 AI를 결합하는 **Physical AI 공학자**를 지향합니다.
+- 🦾 관심 분야: **로보틱스(ROS 2)** · **협동로봇 제어** · **Embodied AI** · **LLM · Vision 응용**
+- 🔧 **인식(Perception) → 판단 → 제어**로 이어지는 로봇 파이프라인과, 그 위에 올라가는 AI 서비스를 함께 만듭니다.
+- 🚀 **두산로보틱스 ROKEY 부트캠프 7기**에서 Doosan 협동로봇 · ROS 2 · AI 기반 자동화를 다뤘습니다.
+- 🌱 협동로봇 픽앤플레이스·공정 자동화부터 AI 여행 플래너, 뉴스·투자 감정분석까지 폭넓게 구현했습니다.
+- 🎓 **Education** — 한성대학교 컴퓨터공학과
 
 ---
 
 ## 📌 주요 프로젝트
 
-- 프로젝트 1: 요약, 사용 기술, 링크
-- 프로젝트 2: 요약, 사용 기술, 링크
-- 프로젝트 3: 요약, 사용 기술, 링크
+### 🌏 [Wind Road — AI 맞춤형 여행 일정 플랫폼](https://github.com/jinw00ch01/TravelAIPlatform) · [🎬 시연영상](https://youtu.be/RzQJm9uAX0c)
+Gemini AI가 여행 스타일·기간·항공·숙소 정보를 반영해 현실적인 동선의 일정을 자동 생성하는 플랫폼. AWS 서버리스 아키텍처로 구성.
+`React` · `Tailwind` · `AWS Lambda/API Gateway/DynamoDB/Cognito` · `Gemini` · `Amadeus·Booking·Mapbox API`
 
-> 📎 [Notion 포트폴리오](#)
+### 🥞 [협동로봇 팬케이크 공정 자동화](https://github.com/jinw00ch01/ROKEY7_FIRST_PROJECT)
+Doosan M0609 6축 협동로봇으로 반죽→프레스→뒤집기→토핑까지 6단계 조리를 자동화. 힘 제어·컴플라이언스, 스플라인 경로, Firebase 웹 기반 원격 제어.
+`ROS 2 Humble` · `Python` · `Doosan M0609` · `Firebase`
+
+### 🥜 [음성 기반 협동로봇 픽앤플레이스 (cobot2)](https://github.com/jinw00ch01/ROKEY7_SECOND_PROJECT)
+음성으로 주문받아 견과류를 집어 담는 ROS 2 시스템. Wake word → STT(Whisper) → 룰 엔진 → YOLO 인식 → pick&place, Arduino 컨베이어 연동.
+`ROS 2` · `Whisper` · `YOLO` · `RealSense` · `Supabase/Firestore` · `React + Three.js`
+
+### 🚗 [BlackBox — 도로교통 규정 RAG 챗봇](https://github.com/jinw00ch01/BlackBox)
+운전·교통 규정을 질문하면 Knowledge Base 검색 근거와 함께 답하는 RAG 챗봇.
+`FastAPI` · `AWS Bedrock` · `Knowledge Base` · `React + Vite`
+
+### 📈 [뉴스·SNS 기반 투자 인사이트](https://github.com/jinw00ch01/Stock_Emotional_Analysis)
+뉴스(FinBERT)와 인플루언서 트윗(VADER) 감정분석을 주가 시계열과 결합해 간접 투자 인사이트를 제공.
+`FinBERT` · `VADER` · `Finnhub API` · `Pandas`
+
+### 📰 [Rokey News — 뉴스 감정분석 서비스](https://github.com/jinw00ch01/ROKEY_news)
+NEWSDATA.io로 수집한 기사를 Gemini로 긍·부정 분석하고, 검색·필터로 열람하는 웹 서비스. CI/CD·클라우드 배포까지 구성.
+`FastAPI` · `PostgreSQL` · `React + TS` · `Gemini` · `GitHub Actions` · `Render`
+
+<details>
+<summary><b>📂 그 외 프로젝트 더 보기</b></summary>
+
+<br/>
+
+- 🎓 **[Py-SMS](https://github.com/jinw00ch01/ROKEY_python_pro_miniproject_01)** — Django REST + React(TS) 학생 관리 시스템, JWT 인증
+- 🧸 **[ReactionAI](https://github.com/jinw00ch01/Reaction)** — 캐릭터 기반 감정 관리 AI (OpenAI API · Node.js · SQLite)
+- 📚 **[Library](https://github.com/jinw00ch01/Library)** — React + Express + MySQL 도서관 관리 시스템
+- 🔤 **[Hidden Letters](https://github.com/jinw00ch01/hidden_letters_prediction)** — Dacon 이미지 분류, CNN + 40-Fold, A100 GPU 최적화(Mixed Precision/XLA)
+- 🕵️ **[AI 텍스트 판별 챌린지](https://github.com/jinw00ch01/2025_SW_Centered_AI_Division)** — LLM 생성 텍스트 판별(ROC-AUC), 한국어 데이터
+- 📓 **[MLbasic](https://github.com/jinw00ch01/MLbasic) · [DeepL01](https://github.com/jinw00ch01/DeepL01) · [DLCV](https://github.com/jinw00ch01/DLCV)** — 머신러닝·딥러닝·컴퓨터비전 학습 노트
+- ☕ **[WebFrameWork2](https://github.com/jinw00ch01/WebFrameWork2_Final_Subject)** — Java 웹 프레임워크 기말 프로젝트
+
+</details>
 
 ---
 
 ## 🛠️ Tech Stack
 
+### 🤖 Robotics & AI APIs
+<p align="center">
+  <img src="https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/Doosan_M0609-0067AC?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Whisper-000000?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+</p>
+
+### 💬 Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,js,ts" height="48" />
+</p>
+
 ### 🎨 Frontend
-<div align="center">
-<a href="https://reactjs.org/"><img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" height="50"/></a>
-<a href="https://vuejs.org/"><img src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" height="50"/></a>
-<a href="https://getbootstrap.com/"><img src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" height="50"/></a>
-<a href="https://tailwindcss.com/"><img src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" height="50"/></a>
-<a href="https://www.javascript.com/"><img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" height="50"/></a>
-<a href="https://www.typescriptlang.org/"><img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" height="50"/></a>
-<a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" height="50"/></a>
-<a href="https://www.w3schools.com/css/"><img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" height="50"/></a>
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css" height="48" />
+</p>
 
 ### ⚙️ Backend & APIs
-<div align="center">
-<a href="https://www.python.org/"><img src="https://profilinator.rishav.dev/skills-assets/python-original.svg" height="50"/></a>
-<a href="https://www.java.com/"><img src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" height="50"/></a>
-<a href="https://developer.apple.com/swift/"><img src="https://profilinator.rishav.dev/skills-assets/swift-original-wordmark.svg" height="50"/></a>
-<a href="https://nodejs.org/"><img src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" height="50"/></a>
-<a href="https://spring.io/"><img src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" height="50"/></a>
-<a href="https://flutter.dev/"><img src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" height="50"/></a>
-<a href="https://flask.palletsprojects.com/"><img src="https://profilinator.rishav.dev/skills-assets/flask.png" height="50"/></a>
-<a href="https://www.djangoproject.com/"><img src="https://profilinator.rishav.dev/skills-assets/django-original.svg" height="50"/></a>
-<a href="https://dotnet.microsoft.com/"><img src="https://profilinator.rishav.dev/skills-assets/dot-net-original-wordmark.svg" height="50"/></a>
-<a href="https://graphql.org/"><img src="https://profilinator.rishav.dev/skills-assets/graphql.png" height="50"/></a>
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,django" height="48" />
+</p>
 
-### 🧠 Data / AI
-<div align="center">
-<a href="https://opencv.org/"><img src="https://profilinator.rishav.dev/skills-assets/opencv-icon.svg" height="50"/></a>
-<a href="https://pytorch.org/"><img src="https://profilinator.rishav.dev/skills-assets/pytorch-icon.svg" height="50"/></a>
-<a href="https://powerbi.microsoft.com/"><img src="https://profilinator.rishav.dev/skills-assets/powerbi.png" height="50"/></a>
-<a href="https://www.tableau.com/"><img src="https://profilinator.rishav.dev/skills-assets/tableau.svg" height="50"/></a>
-</div>
+### 🧠 AI / ML / Data
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn" height="48" />
+</p>
 
 ### 🗄 Databases
-<div align="center">
-<a href="https://www.mysql.com/"><img src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" height="50"/></a>
-<a href="https://mariadb.org/"><img src="https://profilinator.rishav.dev/skills-assets/mariadb.png" height="50"/></a>
-<a href="https://www.oracle.com/"><img src="https://profilinator.rishav.dev/skills-assets/oracle-original.svg" height="50"/></a>
-<a href="https://www.mongodb.com/"><img src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" height="50"/></a>
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,supabase" height="48" />
+</p>
 
-### ☁️ DevOps / Infra / Tools
-<div align="center">
-<a href="https://www.linux.org/"><img src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" height="50"/></a>
-<a href="https://www.gnu.org/software/bash/"><img src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" height="50"/></a>
-<a href="https://github.com/"><img src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" height="50"/></a>
-<a href="https://www.docker.com/"><img src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" height="50"/></a>
-<a href="https://azure.microsoft.com/"><img src="https://profilinator.rishav.dev/skills-assets/microsoft_azure-icon.svg" height="50"/></a>
-<a href="https://docs.microsoft.com/en-us/powershell/"><img src="https://profilinator.rishav.dev/skills-assets/powershell.png" height="50"/></a>
-</div>
-
-### 🎨 Design & Creative
-<div align="center">
-<a href="https://www.adobe.com/in/products/illustrator.html"><img src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg" height="50"/></a>
-<a href="https://www.adobe.com/in/products/photoshop.html"><img src="https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg" height="50"/></a>
-<a href="https://www.adobe.com/in/products/indesign.html"><img src="https://profilinator.rishav.dev/skills-assets/adobeindesign.svg" height="50"/></a>
-<a href="https://www.adobe.com/in/products/premiere.html"><img src="https://profilinator.rishav.dev/skills-assets/adobepremierepro.png" height="50"/></a>
-<a href="https://www.adobe.com/in/products/xd.html"><img src="https://profilinator.rishav.dev/skills-assets/adobexd.png" height="50"/></a>
-<a href="https://www.figma.com/"><img src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" height="50"/></a>
-<a href="https://www.adobe.com/products/photoshop-lightroom.html"><img src="https://profilinator.rishav.dev/skills-assets/lightroom.png" height="50"/></a>
-<a href="https://www.adobe.com/in/products/aftereffects.html"><img src="https://profilinator.rishav.dev/skills-assets/aftereffects.png" height="50"/></a>
-</div>
+### ☁️ Cloud / DevOps / Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,firebase,git,github,githubactions,linux,bash,vscode" height="48" />
+</p>
 
 ---
 
@@ -115,6 +129,7 @@
 ## 📊 GitHub Stats & Streak
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=jinw00ch01&show_icons=true&count_private=true&hide_border=true" height="160"/>
+  <img src="https://streak-stats.demolab.com?user=jinw00ch01&hide_border=true" height="160"/>
 </div>
 
 ---
@@ -131,23 +146,26 @@
 
 ---
 
+<!--
 ## 🐍 Contribution Snake
+아래 스네이크 애니메이션은 GitHub Actions로 생성됩니다.
+활성화하려면 .github/workflows/snake.yml 액션을 추가하고 output 브랜치가 생성된 뒤 주석을 해제하세요.
 ![snake gif](https://github.com/jinw00ch01/jinw00ch01/blob/output/github-contribution-grid-snake.svg)
-
----
+-->
 
 ## 🔗 Links
-- 🌐 [Notion 포트폴리오](#)
-- 📄 [Notion 이력서](#)
+- 🐙 [GitHub](https://github.com/jinw00ch01)
+- 🎬 [Wind Road 시연영상](https://youtu.be/RzQJm9uAX0c)
+<!-- 아래는 준비되면 링크를 채워주세요.
+- 📄 [Notion 포트폴리오](#)
 - 💼 [LinkedIn](#)
-- 🎥 [YouTube](#)
+-->
 
 ---
 
 ## 📬 Contact
-📧 **Email**: example@example.com  
-더 나은 기술 교육을 고민하는 모든 분과 협업하고 싶습니다.  
-Feel free to connect!
+📧 **Email**: herofactorycjw1998@gmail.com  
+함께 배우고 만들어갈 협업이라면 언제든 환영합니다. Feel free to connect! 🙌
 
 ---
 
